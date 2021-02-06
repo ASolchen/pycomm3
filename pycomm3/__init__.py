@@ -34,5 +34,6 @@ from .bytes_ import Pack, Unpack
 from .tag import Tag
 from .exceptions import PycommError, CommError, DataError, RequestError
 from .cip_base import CIPDriver
+from .cip_server import CIPServer
 from .clx import LogixDriver
 from .slc import SLCDriver
